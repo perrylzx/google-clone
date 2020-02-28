@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+.container0{
+  display: flex;
+  align-items:center;
+  flex-direction:row;
+  justify-content: flex-end;
+}
+
+.container0 div{
+  padding:10px
+}
+
+.container1{
+  display: flex;
+  align-items:center;
+  flex-direction:column;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.container1 div{
+  padding:10px;
+}
+
+.container2{
+  background-color: #f2f2f2;
+  display: flex;
+  align-items:center;
+  flex-direction:row;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.container2 div{
+  padding:10px;
+}
+
+
+#google{
+  flex:2;
+  order:1;
+  font-size: 200px;
+}
+
+.searchbar{
+  flex:1;
+  order:2;
+}
+
+.bottomButtons{
+  flex:1;
+  order:3;
+}
+
+#checkup{
+  flex:1;
+  order:4
+}
